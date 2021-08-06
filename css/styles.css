@@ -335,7 +335,7 @@ h2 {
 
 .iframe-container{
   position: relative;
-  width: 80%;
+  width: 90%;
   padding: 100px;
   height: 150px;
 }
@@ -369,13 +369,11 @@ font-family: 'Amatic SC',sans-serif;
 p {
   line-height: 1.4em;
   letter-spacing: .1em;
-  margin: 10px 350px 40px 300px;
+  margin: auto;
   font-family:'Open Sans', sans-serif;
+  text-align: center;
 }
 
-.naturalbag{
-
-}
 
 .greenpurse{
  display: block;
