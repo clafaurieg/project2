@@ -1,0 +1,255 @@
+*{
+  margin:0;
+  padding:0;
+  border:0;
+}
+
+.contact-form {
+  background: white;
+  max-width: 500px;
+  font-family: 'open sans',sans-serif;
+  color: #ff6b6a;
+  margin: -450px 400px 0px 700px;
+}
+
+.label_input_wrap {
+  display: block;
+}
+
+
+ul {
+  list-style-type: none;
+  display: block;
+  margin: 10px;
+  margin-left: 480px;
+  margin-right: 160px;
+  text-align: center;
+  position: relative;
+  font-size: 1rem;
+  color: green;
+  font-family:'Open Sans', sans-serif;
+}
+
+l {
+  list-style-type: none;
+  margin: 20%;
+  padding: 0;
+  color: black;
+}
+
+.logo-container,
+header nav {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+
+header nav ul li {
+    display: inline;
+    padding: 10px;
+}
+
+li {
+  float: left;
+  color: black;
+}
+
+a {
+  display: inline;
+  padding: 10px;
+  color: black;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+  background-color: black;
+}
+
+section {
+    padding: 0px;
+    max-width: 1500px;
+    margin: 10px 0;
+}
+
+
+h1 {
+  font-family: 'Amatic SC';
+  color: black;
+  text-align: center;
+  padding: 30px;
+  font-size: 3.5rem;
+
+}
+h1 {
+font-family: 'Amatic SC', sans-serif;
+}
+
+h2:hover {
+    color:  tan;
+  }
+
+
+body {
+    background-color: white;
+  }
+
+
+h2 {
+  position:relative;
+  margin: -10px 60px 40px 50px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.iframe-container{
+  position: relative;
+  width: 80%;
+  padding: 100px;
+  height: 150px;
+}
+
+.iframe-container iframe{
+  position: absolute;
+  top:0;
+  left: 7.5%;
+  width: 90%;
+  height: 90%;
+  display: block;
+}
+
+.palmart {
+ display: block;
+ margin-left: auto;
+ margin-right: auto;
+ width: 40%;
+ border-radius: 25px;
+}
+
+.iframe-container {
+	bottom: 0 !important;
+	top: 0 !important;
+}
+
+h2 {
+font-family: 'Amatic SC',sans-serif;
+}
+
+p {
+  line-height: 1.4em;
+  letter-spacing: .1em;
+  margin: 10px 350px 40px 300px;
+  font-family:'Open Sans', sans-serif;
+}
+
+.naturalbag{
+
+}
+
+.greenpurse{
+ display: block;
+ margin-left: auto;
+ margin-right: auto;
+ padding: 0;
+ width: 70%;
+ border: 0px solid black;
+}
+
+.pinkflowerbag {
+ display: block;
+ margin-left: auto;
+ max-width: 500px;
+ margin-right: 0;
+ margin: 0px 100px 40px 150px;
+ padding: 0px;
+ width: 70%;
+ border: 0px solid black;
+}
+
+
+
+.greenpurse:hover {
+  opacity: .6;
+}
+
+p:first-letter{
+font-size: 1rem;
+}
+
+p::first-line {
+  font-weight: bold;
+}
+
+p::selection {
+  background: black;
+  color: white;
+}
+
+footer {
+  font-family: 'Amatic SC';
+}
+
+
+.footer {
+ position: fixed;
+ left: 0;
+ bottom: 0;
+ width: 100%;
+ height: 5%;
+ background-color: tan;
+ color: black;
+ text-align: center;
+ font-size: 0.6666666666666666rem;
+}
+
+
+h3 {
+  color: #86c62e ;
+  font-style: italic;
+  text-align: center;
+  font-family:'Open Sans', sans-serif;
+  margin: 10px 30px 40px 50px;
+  padding: 0px;
+  border-radius: 0px;
+  text-shadow: 1px 1px #556b2f;
+}
+
+
+
+.custom-text {
+  color: green;
+  font-size: 1.25rem;
+  font-weight: bold;
+}
+
+.logo {
+  height:40%;
+}
+
+.logo {
+  position: absolute;
+  height:40%;
+}
+
+.logo {
+  animation: wind 20s linear infinite ;
+}
+
+@keyframes wind {
+  from {left: -100px;}
+  to {left: 500px;}
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(3, 200px);
+  justify-content: center;
+  align-content: center;
+  grid-gap: 10px;
+  height: 100vh;
+}
+
+.grid img {
+  width: 200px;
+  height: 200px;
+  cursor: pointer;
+}
